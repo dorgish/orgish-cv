@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "lib": ["es2020", "dom", "dom.iterable", "esnext"],
+        "module": "es2020",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es6",
+        "jsx": "react-jsx",
+        "noImplicitAny": false,
+        "baseUrl": "./src",
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "isolatedModules": true,
+        "noEmit": true
+
+        // "paths": {} / May be used in future
+    },
+    "exclude": [],
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+    ],
+    "compileOnSave": false
+}
