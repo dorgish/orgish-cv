@@ -1,0 +1,132 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgb(85, 83, 90);
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.mainInfo:not(:last-child) {
+  border-bottom: 3px solid rgb(229, 231, 179);
+}
+
+.avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 30px;
+  color: rgb(229, 231, 179);
+  margin-bottom: 20px;
+}
+
+.position {
+  font-size: 24px;
+  color: #fff;
+}
+
+.contactsTitle {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(229, 231, 179);
+}
+
+.contacts {
+  width: 100%;
+}
+
+.contacts li {
+  list-style: none;
+  text-align: left;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skillsItem {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  list-style: none;
+}
+
+.skillsType {
+  color: rgb(229, 231, 179);
+  margin-bottom: 5px;
+}
+
+.skillsItem p {
+  color: #fff;
+}
+
+.softSkillSection {
+  width: 100%;
+}
+
+.softSkillsItem {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.softSkillsType {
+  font-weight: normal;
+}
+
+.addItem {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.addInfoList {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .aboutWrapper {
+    padding: 0 75px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .aboutWrapper {
+    padding: 0 20px;
+    max-width: 30%;
+  }
+}

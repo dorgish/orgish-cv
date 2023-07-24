@@ -1,0 +1,96 @@
+.expWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 248, 248);
+  border-right: 1px solid rgb(215, 212, 223);
+}
+
+.expTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 680px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: rgb(236, 211, 190);
+  font-size: 28px;
+  font-weight: normal;
+  color: rgb(57, 57, 57);
+}
+
+.expItem {
+  margin-bottom: 20px;
+}
+
+.portfolioItem {
+  list-style: none;
+  width: 80%;
+  border: 1px solid rgb(235, 231, 231);
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: rgba(239, 239, 240, 0.734);
+  box-shadow: 1px 1px 12px 2px rgba(57, 56, 56, 0.129);
+}
+
+.portfolioLInk {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(194, 189, 189);
+  border-top: 1px solid rgb(194, 189, 189);
+  color: rgb(58, 119, 231);
+  text-align: center;
+}
+
+.portfolioDescription {
+  font-size: 12px;
+  word-wrap: break-word;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.jobsList {
+  width: 80%;
+  padding: 0 30px;
+  word-wrap: break-word;
+}
+
+.jobsItem {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.date {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .portfolioList {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 20px;
+  }
+
+  .portfolioItem {
+    max-width: 320px;
+    margin: 0 0 0 20px;
+  }
+
+  .expTitle {
+    margin-top: 20px;
+  }
+}

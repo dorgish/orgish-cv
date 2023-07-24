@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/git_hub_search/static/css/main.53d7ce2b.chunk.css",
+    "main.js": "/git_hub_search/static/js/main.4cbbd34a.chunk.js",
+    "main.js.map": "/git_hub_search/static/js/main.4cbbd34a.chunk.js.map",
+    "runtime-main.js": "/git_hub_search/static/js/runtime-main.1e82f688.js",
+    "runtime-main.js.map": "/git_hub_search/static/js/runtime-main.1e82f688.js.map",
+    "static/js/2.d7b1fe0c.chunk.js": "/git_hub_search/static/js/2.d7b1fe0c.chunk.js",
+    "static/js/2.d7b1fe0c.chunk.js.map": "/git_hub_search/static/js/2.d7b1fe0c.chunk.js.map",
+    "index.html": "/git_hub_search/index.html",
+    "static/css/main.53d7ce2b.chunk.css.map": "/git_hub_search/static/css/main.53d7ce2b.chunk.css.map",
+    "static/js/2.d7b1fe0c.chunk.js.LICENSE.txt": "/git_hub_search/static/js/2.d7b1fe0c.chunk.js.LICENSE.txt",
+    "static/media/1.fd2eebf3.png": "/git_hub_search/static/media/1.fd2eebf3.png",
+    "static/media/git.d97b53c1.svg": "/git_hub_search/static/media/git.d97b53c1.svg",
+    "static/media/linkedIn_.744c48e7.svg": "/git_hub_search/static/media/linkedIn_.744c48e7.svg",
+    "static/media/mail.580a851b.svg": "/git_hub_search/static/media/mail.580a851b.svg",
+    "static/media/phon_e.a350819e.svg": "/git_hub_search/static/media/phon_e.a350819e.svg",
+    "static/media/telega.69581ea6.svg": "/git_hub_search/static/media/telega.69581ea6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e82f688.js",
+    "static/js/2.d7b1fe0c.chunk.js",
+    "static/css/main.53d7ce2b.chunk.css",
+    "static/js/main.4cbbd34a.chunk.js"
+  ]
+}
